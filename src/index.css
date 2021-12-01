@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: cadetblue;
+    padding: 20px;
+}
+.img-login{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.left-side{
+    display: flex;
+    align-items: center;
+}
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.readme pre{
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #bdbdbd;
+    border-radius: 6px;
+}
+.main-page{
+    background-color: #cba56f;
+}
+.footer-back,.header{
+    background-color: #cba56f;
+}
+.readme code{
+    font-size: 85%;
+    background-color: #bdbdbd;
+    border-radius: 6px;
+}
