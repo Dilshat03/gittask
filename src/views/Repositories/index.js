@@ -61,6 +61,10 @@ const Repositories = () => {
                                         className="px-5 py-3 bg-white  border-b border-gray-200 text-gray-800  text-center text-sm uppercase font-normal">
                                         Stargazers-count
                                     </th>
+                                    <th scope="col"
+                                        className="px-5 py-3 bg-white  border-b border-gray-200 text-gray-800  text-center text-sm uppercase font-normal">
+                                        Watchers-count
+                                    </th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -91,6 +95,11 @@ const Repositories = () => {
                                                 <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm text-center">
                                                     <p className="text-gray-900 whitespace-no-wrap">
                                                         {el.stargazers_count}
+                                                    </p>
+                                                </td>
+                                                <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm text-center">
+                                                    <p className="text-gray-900 whitespace-no-wrap">
+                                                        {el.watchers_count}
                                                     </p>
                                                 </td>
                                             </tr>
